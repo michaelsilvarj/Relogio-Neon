@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans+JP:wght@900&display=swap');
+
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+#corpo{
+    align:center;
+    background-color: black;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#tela {
+    background: rgb(20, 12, 12);
+    height: 150px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#relogio{
+    color: rgb(34, 102, 74);
+    font-size:60px;
+    font-family: 'Black Ops One', cursive;
+    
+
+    transform:translate (-50%,-50%);
+    animation: neon 3s alternate infinite ease-in-out;
+    ---cor-neon:rgb(93, 161, 93);
+}
+
+/* Define a sombra sem efeito */
+@keyframes neon{
+    from{
+        filter: drop-shadow(0 0 0 var(---cor-neon)); 
+    }
+    to{
+        filter: drop-shadow(0 0 10px var(---cor-neon)); 
+    } 
+}
+
+
+
