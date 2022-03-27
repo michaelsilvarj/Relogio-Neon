@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans+JP:wght@900&display=swap');
 
+@font-face {
+    font-family: DS-DIGII;
+    src: url(../Font/DS-DIGII.ttf);
+}
 
 
 
@@ -48,12 +52,12 @@ body{
 
 #relogio{
     color: rgb(34, 102, 74);
-    font-size:60px;
-    font-family: 'Black Ops One', cursive;
+    font-size:80px;
+    font-family:'DS-DIGII','Black Ops One', cursive;
     
 
     transform:translate (-50%,-50%);
-    animation: neon 3s alternate infinite ease-in-out;
+    animation: neon 60s alternate infinite ease-in-out;
     ---cor-neon:rgb(93, 161, 93);
 }
 
