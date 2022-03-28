@@ -5,6 +5,10 @@
     font-family: DS-DIGII;
     src: url(../Font/DS-DIGII.ttf);
 }
+@font-face {
+    font-family:digital-7 ;
+    src: url(../Font/digital-7.ttf);
+}
 
 
 
@@ -58,7 +62,7 @@ body{
 #relogio{
     color: #00ced1;
     font-size:80px;
-    font-family:'DS-DIGII','Black Ops One', cursive;
+    font-family:'digital-7','DS-DIGII','Black Ops One', cursive;
     
 
     transform:translate (-50%,-50%);
@@ -70,7 +74,7 @@ body{
 #cumprimento{
     color: #00ced1;
     box-shadow: #5f9ea0;
-    font-family:'DS-DIGII','Black Ops One', cursive;
+    font-family:'digital-7', 'DS-DIGII','Black Ops One', cursive;
     display: block;
    justify-content: center;
    padding-top: 100px;
